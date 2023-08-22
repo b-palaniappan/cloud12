@@ -1,7 +1,8 @@
 <div class="navbar bg-base-300 rounded-md">
 	<div class="navbar-start">
 		<div class="dropdown">
-			<label tabindex="0" class="btn btn-ghost btn-circle">
+			<!-- eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex -->
+			<label tabindex="0" class="btn btn-ghost btn-circle" for="">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-5 w-5"
@@ -16,6 +17,7 @@
 					/></svg
 				>
 			</label>
+			<!-- eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex -->
 			<ul
 				tabindex="0"
 				class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-300 rounded-box w-52"

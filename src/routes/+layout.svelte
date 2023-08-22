@@ -9,7 +9,7 @@
 	<meta name="description" content="Personal website" />
 </svelte:head>
 
-<div class="container mx-auto py-2">
+<div class="container mx-auto py-2 px-4">
 	<div class="pb-8">
 		<Header />
 	</div>
