@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Version from '$lib/components/Version.svelte';
 </script>
+
 <footer class="footer items-center p-4 bg-base-300 text-base-content rounded-md">
 	<div class="items-center grid-flow-col">
 		<svg
